@@ -9,7 +9,6 @@ const sessions = new Map();
 const readline = require('readline');
 const cd = "cooldown.json";
 const axios = require("axios");
-const fs = require("fs");
 const chalk = require("chalk"); 
 const config = require("./config.js");
 const TelegramBot = require("node-telegram-bot-api");
